@@ -1,0 +1,161 @@
+body {
+  font-family: "Lucida Console", "Courier New", monospace;
+  background-color: silver;
+}
+  
+  h1, h2, h3 {
+    font-family: "Fantasy"; }
+  
+  h2 {
+    color: #3046C5; }
+  
+  header h2 {
+    color: #CEC8FF; }
+  
+  .site-footer {
+    background-image: linear-gradient(#839cff, white);
+    padding: 20px 0; }
+  
+  .jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient(to right, #6168fb, #4c66f9, #4a14ed);
+    color: rgb(103, 52, 52); }
+  
+  .row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px; }
+  
+  .jumbotron {
+    margin: 0; }
+  
+  footer {
+    background-image: linear-gradient(#533dfb, white);
+    padding: 20px 0; }
+  
+  .tab-content {
+    border: 1px solid #DDD;
+    border-top: none;
+    padding: 10px; }
+  
+  a, a:hover {
+    color: inherit;
+    text-decoration: none; }
+  
+  
+  #loginModal .modal-header {
+    background-color: #064ee9;
+    color: rgb(187, 95, 95); }
+  
+  #carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0%;
+    z-index: 100; }
+
+ .breadcrumb {
+
+  background-image: linear-gradient(silver, lightblue);
+
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); }
+  
+  .navbar {
+    background-color: #2709d1; }
+  
+  .carousel {
+    border: solid #5637dd; }
+
+    .form-check-label {
+        color: black;
+    }
+
+    
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #4683a2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightskyblue;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #04AA6D;
+  color: rgb(8, 8, 8);
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+span.price {
+  float: right;
+  color: rgb(3, 3, 3);
+}
+
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+} 
+  
